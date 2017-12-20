@@ -1,0 +1,8 @@
+# Remove key from json all which not defined in filter file
+
+# Usage
+./json_cleaner.py test_data/classificators.json test_data/filter test_data/out
+
+# Filter file format
+key1:key2
+key1[:key[..]]
